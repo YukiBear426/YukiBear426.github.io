@@ -1,0 +1,49 @@
+<div class="row mt-3">
+    <div class="col">
+      <div class="card border-0 shadow-sm bg-white">
+        <div class="card-body p-4">
+          <div class="row" data-masonry='{"percentPosition": true }'>
+  
+            {% if include.experiences %}
+            <div class="col-12">
+              <div class="mx-2 my-1">
+                <h6>{{ include.title }}</h6>
+                <ul class="list-unstyled mb-1">
+                  {% for item in include.experiences %}
+                  <li class="media mb-3">
+                    {% if item.logo %}
+                    <img src="{{ item.logo | relative_url }}" alt="{{ item.company }}" style="width: 18px;" class="mr-2 mt-1">
+                    {% endif %}
+                    <div class="media-body">
+                      <div class="font-weight-bold">{{ item.title }}</div>
+                      <div class="small">{{ item.company }}</div>
+                      <div class="small d-flex">
+                        <div>{{ item.position | default: "" }}</div>
+                        <div class="ml-auto mt-auto no-break">
+                            <em>
+                                {{ item.start_date | date: "%b %Y" }} - {{ item.end_date | date: "%b %Y" }}
+                            </em>
+                        </div>
+                      </div>
+  
+                      {% if item.description %}
+                      <ul class="mt-1 mb-0 pl-3 small">
+                        {% for point in item.description %}
+                        <li>{{ point }}</li>
+                        {% endfor %}
+                      </ul>
+                      {% endif %}
+  
+                    </div>
+                  </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+            {% endif %}
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -67,6 +67,15 @@
                         </a>
                         {% endif %}
 
+
+                        {% if site.data.profile.instagram_qrcode %}
+                        <a class="px-1 no-break" data-toggle="modal" data-target="#modal-instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        {% endif %}
+
+
+
                         {% if site.data.profile.twitter %}
                         <a class="px-1 no-break" target="_blank" href="https://twitter.com/{{ site.data.profile.twitter }}">
                             <i class="fab fa-twitter"></i>
@@ -102,6 +111,27 @@
             {% if site.data.profile.wechat_prompt %}
             <div class="modal-body p-1">
                 {{ site.data.profile.wechat_prompt }}
+            </div>
+            {% endif %}
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+
+{% if site.data.profile.instagram_qrcode %}
+<div class="modal fade" id="modal-instagram" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-body p-0">
+                <img src="{{ site.data.profile.instagram_qrcode | relative_url }}" class="img-fluid">
+            </div>
+            {% if site.data.profile.instagram_prompt %}
+            <div class="modal-body p-1">
+                {{ site.data.profile.instagram_prompt }}
             </div>
             {% endif %}
             <div class="modal-footer">
