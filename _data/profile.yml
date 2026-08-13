@@ -2,45 +2,54 @@ primary_name: "Yuqi Xiong"
 secondary_name: ""
 navbar_name: "Yuqi Xiong"
 
-positions:
-- name: "ShenZhen University"
+#positions:
+#- name: ""
 
 email: "yqbear426@gmail.com"
 cv_link: "assets/files/CV.pdf"
 gscholar: OLVvLtMAAAAJ
 github: YukiBear426
 wechat_qrcode: /assets/images/etc/wechat.jpg
-linkedin: your-linked-in-id
+linkedin: yuqi-xiong-3916a03a1
 instagram_qrcode: /assets/images/etc/instagram.jpg
 
 short_bio_text_justify: false
 short_bio: >-
-  I am a student in Electronics and Information Engineering with research interests in Machine Learning, Deep Learning, and Embodied Intelligence. I have conducted in-depth research in Computer Vision, Time Series Forecasting, and Generative Models. I am experienced in Python, PyTorch, and data-driven research projects, and I am passionate about applying advanced computational methods to real-world problems.
+  I am Yuqi Xiong, a graduate student in Electrical and Computer Engineering at the National University of Singapore. My research interests focus on machine learning, deep learning, big data mining, computer vision, and intelligent autonomous systems. My research experience spans time series forecasting, salient object detection, and multi-UAV path planning and task allocation. I am currently working on AI-generated image detection with Assoc Prof Robby Tan from Yale-NUS College.I am particularly interested in developing robust and efficient learning-based methods for complex and dynamic environments.
 
 portrait_url: /assets/images/photos/bear.png
 
 education:
+- name: ""
+- name: ""
+
 - name: "ShenZhen University"
   logo: /assets/images/badges/szu.png
   position: "B.Eng. in Electronics and Information Engineering"
-  date: "Sep. 2022 - Jul. 2025"
+  date: "Sep. 2022 - Jul. 2026"
 
 - name: ""
 - name: ""
 
-- name: "National University of Singapore, Suzhou Research Institute"
+- name: ""
+- name: ""
+
+
+- name: "National University of Singapore"
   logo: /assets/images/badges/nus.png
-  position: "Exchange Student in Electrical and Computer Engineering"
-  date: "Sep. 2025 - present"
+  position: "M.Sc. in Electrical and Computer Engineering"
+  date: "Aug. 2026 - JUL. 2027"
 
 awards:
-- name: "Shenzhen University Second-Class Academic Scholarship (Top 3%)"
-  date: 2025 & 2023
-- name: "Shenzhen University Second-Class Innovation and Entrepreneurship Scholarship (Top 3%)"
-  date: 2025
-- name: "Shenzhen University First-Class Academic Scholarship (Top 1%)"
-  date: 2024
 - name: "Chinese Mathematics Competition, Third Prize"
   date: 2024
 - name: "Greater Bay Area Data Application and Innovation Competition, Third Prize"
   date: 2024
+- name: "Shenzhen University First-Class Academic Scholarship (Top 1%)"
+  date: 2024
+- name: "Shenzhen University Second-Class Academic Scholarship (Top 3%)"
+  date: 2025 & 2023
+- name: "Shenzhen University Second-Class Innovation and Entrepreneurship Scholarship (Top 3%)"
+  date: 2025
+- name: "Shenzhen University Outstanding Graduate & Bachelor's Degree with Honours"
+  date: 2026

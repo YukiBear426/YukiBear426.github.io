@@ -2,3 +2,4 @@ homepage:
   show_experience: true
   show_internships: true
   show_selected_publications: true
+  show_selected_projects: False
